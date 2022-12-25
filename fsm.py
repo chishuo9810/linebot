@@ -59,6 +59,9 @@ class TocMachine(GraphMachine):
         send_text_message(reply_token, "回去")
         self.go_back()
 #user state
+    def is_going_to_user():
+        print("iam user")
+        send_text_message(reply_token, "回去")
     def on_enter_user(self):
         print("iam user")
 

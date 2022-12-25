@@ -49,15 +49,16 @@ machine = TocMachine(
 
         {
             "trigger": "advance",
-            "source": ["rand_pretty","pretty","rand_handsome","handsome","user","回去"],
+            "source": ["rand_pretty","pretty","rand_handsome","handsome","user","back"],
             "dest": "back",
             "conditions": "is_going_to_back",
         },
         
         
-        {"trigger": "go_back",
+        { "trigger": "go_back",
            "source": ["back", "rand_pretty","pretty","handsome","rand_handsome","user"], 
-           "dest": "user"
+           "dest": "user",
+           "conditions": "is_going_to_user",
         },
     ],
     initial="user",
