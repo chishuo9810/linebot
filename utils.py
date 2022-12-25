@@ -19,8 +19,8 @@ def send_text_message(reply_token, text):
         print(rnd)
         if rnd == 0:
             image_message = ImageSendMessage(
-            original_content_url='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/%E6%AF%8D%E8%83%8E%E5%A5%B3%E6%98%9F-1642061819.jpg?crop=0.510xw:1.00xh;0,0&resize=640:*',
-            preview_image_url='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/%E6%AF%8D%E8%83%8E%E5%A5%B3%E6%98%9F-1642061819.jpg?crop=0.510xw:1.00xh;0,0&resize=640:*'
+            original_content_url='https://scontent.ftpe7-4.fna.fbcdn.net/v/t39.30808-6/284183202_3169811953294118_1595118649457337753_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=mpbjWYfCl8gAX_cGbgv&tn=VdLjndo0M8KvNgP7&_nc_ht=scontent.ftpe7-4.fna&oh=00_AfDNAlcu11XmXaH3u62dyq79GR3EXOa2v-YtQDKQwbZYuQ&oe=63AC196C',
+            preview_image_url='https://scontent.ftpe7-4.fna.fbcdn.net/v/t39.30808-6/284183202_3169811953294118_1595118649457337753_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=mpbjWYfCl8gAX_cGbgv&tn=VdLjndo0M8KvNgP7&_nc_ht=scontent.ftpe7-4.fna&oh=00_AfDNAlcu11XmXaH3u62dyq79GR3EXOa2v-YtQDKQwbZYuQ&oe=63AC196C'
             )
         elif rnd == 1:
             image_message = ImageSendMessage(
@@ -90,8 +90,8 @@ def send_text_of_handsome(reply_token, text):
             )
         elif rnd == 2:
             image_message = ImageSendMessage(
-            original_content_url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWPBYBRa9zZCJdfHeiWQ_LwPmr_XVPs-sROQ&usqp=CAU',
-            preview_image_url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWPBYBRa9zZCJdfHeiWQ_LwPmr_XVPs-sROQ&usqp=CAU'
+            original_content_url='https://d24o4k0vdyt0z8.cloudfront.net/thumb/20220916/0f60fc13aa023720c0fe2c23f013fe55f7a2d769d57e1e7c5bdad561c97d3d7ac0eec71d57290b17365f29d522a7eda468e8c3ab4d1c7f300f28190eafddc757.jpg',
+            preview_image_url='https://d24o4k0vdyt0z8.cloudfront.net/thumb/20220916/0f60fc13aa023720c0fe2c23f013fe55f7a2d769d57e1e7c5bdad561c97d3d7ac0eec71d57290b17365f29d522a7eda468e8c3ab4d1c7f300f28190eafddc757.jpg'
             )
         elif rnd == 3:
             image_message = ImageSendMessage(
