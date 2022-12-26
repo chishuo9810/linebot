@@ -1,15 +1,17 @@
-# TOC Project 2020
+# TOC Project 2022 line bot
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/dc7fa47fcd809b99d087/maintainability)](https://codeclimate.com/github/NCKU-CCS/TOC-Project-2020/maintainability)
 
 [![Known Vulnerabilities](https://snyk.io/test/github/NCKU-CCS/TOC-Project-2020/badge.svg)](https://snyk.io/test/github/NCKU-CCS/TOC-Project-2020)
 
 
-Template Code for TOC Project 2020
-
-A Line bot based on a finite state machine
-
-More details in the [Slides](https://hackmd.io/@TTW/ToC-2019-Project#) and [FAQ](https://hackmd.io/s/B1Xw7E8kN)
+# 主題
+抽美女帥哥
+## 發想
+想起當初line剛普及時，出現了一款line bot，輸入「抽」即可隨機得到一張美女圖片，這對當時的我來說實在是血脈賁張，於是設計這款line bot藉以復刻當年的美好時光
+## 操作方式
+加入好友後，輸入「美女」或「帥哥」，接著輸入「抽」即可獲得一張美女或帥哥的圖片，輸入「重新輸入」即可重新做選擇
+<image src = "https://user-images.githubusercontent.com/91696384/209521239-6c90d334-f094-47d3-b4c4-01b24fe4c28e.png" width = "500">
 
 ## Setup
 
