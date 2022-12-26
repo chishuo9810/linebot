@@ -13,6 +13,9 @@
 加入好友後，輸入「美女」或「帥哥」，接著輸入「抽」即可獲得一張美女或帥哥的圖片，輸入「重新輸入」即可重新做選擇
 
 <image src = "https://user-images.githubusercontent.com/91696384/209521239-6c90d334-f094-47d3-b4c4-01b24fe4c28e.png" width = "500">
+ 
+## FSM
+![image](https://user-images.githubusercontent.com/91696384/209525698-1c19fe9b-4bab-43cc-9629-b3c9dcd93452.png)
 
 ## Setup
 
