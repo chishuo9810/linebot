@@ -49,17 +49,17 @@ class TocMachine(GraphMachine):
         self.is_going_to_handsome(event)
 
 
-#回去state
+#回去state#user state
     def is_going_to_back(self, event):
+        print("is going to back")
         text = event.message.text
         return text.lower() == "重新選擇"
-    def on_enter_back(self, event):
+
+    def on_enter_user(self,event):
         print("I'm entering 回去")
         reply_token = event.reply_token
         send_text_message(reply_token, "回去")
         self.go_back()
-#user state
-    def on_enter_user(self):
         print("iam user")
 
 

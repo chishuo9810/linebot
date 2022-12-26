@@ -14,7 +14,7 @@ load_dotenv()
 
 
 machine = TocMachine(
-    states=["user", "rand_pretty","back","pretty","handsome","rand_handsome"],
+    states=["user", "rand_pretty","pretty","handsome","rand_handsome"],
     transitions=[
         {
             #美女state
@@ -34,7 +34,7 @@ machine = TocMachine(
         {
             #帥哥state
             "trigger": "advance",
-            "source":["user","rand_handsome"],
+            "source":["user"],
             "dest": "handsome",
             "conditions": "is_going_to_handsome",
         },
@@ -46,18 +46,12 @@ machine = TocMachine(
             "dest": "rand_handsome",
             "conditions": "is_going_to_rand_handsome",
         },
-
-        {
-            "trigger": "advance",
-            "source": ["rand_pretty","pretty","rand_handsome","handsome","user","back"],
-            "dest": "back",
-            "conditions": "is_going_to_back",
-        },
         
         
-        {"trigger": "go_back",
-           "source": ["back", "rand_pretty","pretty","handsome","rand_handsome","user"], 
-           "dest": "user"
+        {  "trigger": "advance",
+           "source": ["rand_pretty","pretty","handsome","rand_handsome","user"], 
+           "dest": "user",
+           "conditions": "is_going_to_back",
         },
     ],
     initial="user",
