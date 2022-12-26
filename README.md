@@ -12,7 +12,6 @@ A Line bot based on a finite state machine
 More details in the [Slides](https://hackmd.io/@TTW/ToC-2019-Project#) and [FAQ](https://hackmd.io/s/B1Xw7E8kN)
 ## 主題 隨機抽圖片
 加入好友後，可以輸入美女或帥哥，選擇後，接著輸入「抽」，即可隨機產生美女或是帥哥的圖片
-![image](https://user-images.githubusercontent.com/91696384/209514056-88b90e85-a86e-42bf-acad-04f57e40e806.png)
 <img src="https://user-images.githubusercontent.com/91696384/209514056-88b90e85-a86e-42bf-acad-04f57e40e806.png" width = "100">
 ### 發想
 曾經有個linebot瘋迷一時，可以輸入「抽」來產生美女的圖片，再智慧型手機剛普及的當時對我來說實在是血脈賁張，於是決定復刻一款簡略版重現當年的回憶
